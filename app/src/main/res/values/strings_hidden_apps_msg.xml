@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hidden_apps_add_msg">Package added to hidden list.</string>
+    <string name="hidden_apps_rem_msg">Package removed from hidden list.</string>
+    <string name="hidden_apps_exc_msg">Package excluded.</string>
+
+</resources>

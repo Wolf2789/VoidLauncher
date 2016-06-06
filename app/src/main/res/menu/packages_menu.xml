@@ -1,0 +1,11 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/activity_hidden_packages"
+        android:icon="@mipmap/hidden_app"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/hidden_packages"
+        tools:ignore="AppCompatResource"
+        />
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/app_dialog"
+    android:background="@drawable/dialog_background" >
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+		android:textSize="30sp"
+		android:textColor="@android:color/black"
+		android:shadowColor="@android:color/holo_orange_light"
+		android:shadowRadius="7"
+        />
+    
+    <TextView
+        android:id="@+id/package_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="3dp"
+		android:textSize="15sp" 
+		android:textColor="@android:color/black"
+        />
+    
+    <Button 
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/package_info"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:text="@string/app_info"
+		android:textSize="20sp" 
+        android:textColor="@android:color/black"
+        android:background="@drawable/button_info"
+        />
+    
+    <LinearLayout
+        android:id="@+id/btn_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_info"
+        android:orientation="horizontal" >
+	    <Button 
+	        android:id="@+id/btn_hide"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+       		android:padding="3dp"
+	        android:layout_margin="3dp"
+			android:textSize="20sp" 
+	        android:textColor="@android:color/black"
+	        android:background="@drawable/button_options"
+	        />
+	    <Button 
+	        android:id="@+id/btn_exclude"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+        	android:padding="3dp"
+	        android:layout_margin="3dp"
+	        android:text="@string/app_exclude"
+			android:textSize="20sp" 
+	        android:textColor="@android:color/black"
+	        android:background="@drawable/button_options"
+	        />
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/btn_uninstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_options"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:text="@string/app_uninstall"
+		android:textSize="20sp" 
+        android:textColor="@android:color/black"
+        android:background="@drawable/button_uninstall"
+        />
+    
+</RelativeLayout>

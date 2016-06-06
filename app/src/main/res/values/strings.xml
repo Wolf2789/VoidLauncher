@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Void Launcher</string>
+    <string name="reset_preferences">Reset Preferences</string>
+    <string name="hidden_packages">Hidden Packages</string>
+
+    <string name="app_info">Info</string>
+    <string name="app_exclude">Exclude</string>
+    <string name="app_uninstall">Uninstall</string>
+</resources>
